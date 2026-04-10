@@ -1,8 +1,6 @@
 ﻿# Dependencies
 /node_modules
 /vendor
-composer.lock
-package-lock.json
 
 # Compiled assets (build output)
 /assets/dist/
