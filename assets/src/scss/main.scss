@@ -1,0 +1,41 @@
+﻿// ===================================
+// 1. ABSTRACTS (Variables, Mixins)
+// ===================================
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// ===================================
+// 2. VENDORS (Bootstrap - customized)
+// ===================================
+@import 'vendors/bootstrap';
+
+// ===================================
+// 3. BASE (Reset, Typography)
+// ===================================
+@import 'base/reset';
+@import 'base/typography';
+
+// ===================================
+// 4. COMPONENTS (Buttons, Cards, Nav)
+// ===================================
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/navigation';
+
+// ===================================
+// 5. LAYOUT (Grid, Header, Footer)
+// ===================================
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+// ===================================
+// 6. PAGES (Page-specific styles)
+// ===================================
+@import 'pages/home';
+@import 'pages/vendor-dashboard';
+
+// ===================================
+// 7. THEMES (Dark mode, Color schemes)
+// ===================================
+@import 'themes/dark-mode';
