@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "markethub",
   "version": "1.0.0",
   "description": "Multi-vendor marketplace WordPress theme",
@@ -22,7 +22,10 @@
   "author": "Viktor Lawrence",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
     "@popperjs/core": "^2.11.8",
+    "babel-loader": "^10.1.1",
     "bootstrap": "^5.3.2",
     "eslint": "^8.55.0",
     "sass": "^1.69.5",
