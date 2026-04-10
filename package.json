@@ -1,0 +1,34 @@
+﻿{
+  "name": "markethub",
+  "version": "1.0.0",
+  "description": "Multi-vendor marketplace WordPress theme",
+  "main": "assets/src/js/main.js",
+  "scripts": {
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "sass assets/src/scss/main.scss assets/dist/css/main.css --style=compressed --source-map",
+    "build:js": "webpack --mode=production",
+    "watch": "npm run watch:css & npm run watch:js",
+    "watch:css": "sass assets/src/scss/main.scss assets/dist/css/main.css --watch --source-map",
+    "watch:js": "webpack --mode=development --watch",
+    "lint:js": "eslint assets/src/js/",
+    "lint:css": "stylelint assets/src/scss/"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "marketplace",
+    "woocommerce"
+  ],
+  "author": "Viktor Lawrence",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.2",
+    "eslint": "^8.55.0",
+    "sass": "^1.69.5",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard-scss": "^11.1.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
