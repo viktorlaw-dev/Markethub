@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * MarketHub Theme Bootstrap
  *
@@ -23,4 +23,7 @@ new MarketHub\Core\Theme();
 // 3. Hire the Asset Handler (Assets)
 new MarketHub\Core\Assets();
 
-// 4. Done. No logic below this line.
+// 4. Hire the Vendor CPT Registrar (Setup)
+new MarketHub\Setup\Vendor_CPT();
+
+// 5. Done. No logic below this line.
