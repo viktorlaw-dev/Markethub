@@ -1,4 +1,4 @@
-﻿// ===================================
+// ===================================
 // 1. ABSTRACTS (Variables, Mixins)
 // ===================================
 @import 'abstracts/variables';
@@ -21,6 +21,7 @@
 @import 'components/buttons';
 @import 'components/cards';
 @import 'components/navigation';
+@import 'components/vendor-card';
 
 // ===================================
 // 5. LAYOUT (Grid, Header, Footer)
@@ -33,6 +34,7 @@
 // 6. PAGES (Page-specific styles)
 // ===================================
 @import 'pages/home';
+@import 'pages/vendor-archive';
 @import 'pages/vendor-dashboard';
 
 // ===================================

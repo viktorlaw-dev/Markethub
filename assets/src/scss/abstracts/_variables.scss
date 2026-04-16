@@ -1,0 +1,85 @@
+// ===================================
+// MarketHub Design System
+// Professional + Friendly Hybrid
+// ===================================
+
+// Primary Colors
+$primary: #00503a;
+$primary-fixed: #9ef4d0;
+$primary-fixed-dim: #83d7b4;
+$on-primary: #ffffff;
+$on-primary-fixed: #002116;
+$on-primary-fixed-variant: #00513b;
+$on-primary-container: #92e7c3;
+$primary-container: #006a4e;
+$inverse-primary: #83d7b4;
+
+// Secondary Colors
+$secondary: #1261a3;
+$secondary-fixed: #d2e4ff;
+$secondary-fixed-dim: #a1c9ff;
+$on-secondary: #ffffff;
+$on-secondary-fixed: #001c37;
+$on-secondary-fixed-variant: #00487f;
+$on-secondary-container: #00477d;
+$secondary-container: #7ab7ff;
+
+// Tertiary Colors
+$tertiary: #5a4200;
+$tertiary-fixed: #ffdf9e;
+$tertiary-fixed-dim: #f6be32;
+$on-tertiary: #ffffff;
+$on-tertiary-fixed: #261a00;
+$on-tertiary-fixed-variant: #5b4300;
+$on-tertiary-container: #ffd067;
+$tertiary-container: #775800;
+
+// Surface Colors
+$surface: #f8f9fa;
+$surface-bright: #f8f9fa;
+$surface-dim: #d9dadb;
+$surface-container: #edeeef;
+$surface-container-low: #f3f4f5;
+$surface-container-lowest: #ffffff;
+$surface-container-high: #e7e8e9;
+$surface-container-highest: #e1e3e4;
+$surface-tint: #046c50;
+$surface-variant: #e1e3e4;
+$on-surface: #191c1d;
+$on-surface-variant: #3f4944;
+$inverse-surface: #2e3132;
+$inverse-on-surface: #f0f1f2;
+
+// Outline Colors
+$outline: #6f7a73;
+$outline-variant: #bec9c2;
+
+// Error Colors
+$error: #ba1a1a;
+$error-container: #ffdad6;
+$on-error: #ffffff;
+$on-error-container: #93000a;
+
+// Background
+$background: #f8f9fa;
+$on-background: #191c1d;
+
+// Typography
+$font-headline: 'Plus Jakarta Sans', sans-serif;
+$font-body: 'Manrope', sans-serif;
+
+// Border Radius
+$border-radius-default: 1rem;
+$border-radius-lg: 2rem;
+$border-radius-xl: 3rem;
+$border-radius-full: 9999px;
+
+// Shadows
+$shadow-sm: 0 2px 8px rgba(25, 28, 29, 0.04);
+$shadow-md: 0 4px 16px rgba(25, 28, 29, 0.06);
+$shadow-lg: 0 12px 32px rgba(25, 28, 29, 0.08);
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;
