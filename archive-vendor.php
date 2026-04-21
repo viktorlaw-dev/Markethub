@@ -90,7 +90,7 @@ get_header();
                         <div class="filter-group">
                             <label for="vendor-search">Search</label>
                             <div class="search-wrapper">
-                                <i class="ri ri-search-line"></i>
+                                <i class="material-symbols-outlined"></i>
                                 <input 
                                     type="text" 
                                     id="vendor-search" 
@@ -192,8 +192,8 @@ get_header();
                 echo paginate_links([
                     'total' => $vendor_query->max_num_pages,
                     'current' => max(1, get_query_var('paged')),
-                    'prev_text' => '<span class="ri ri-arrow-left-s-line"></span>',
-                    'next_text' => '<span class="ri ri-arrow-right-s-line"></span>',
+                    'prev_text' => '<span class="material-symbols-outlined"></span>',
+                    'next_text' => '<span class="material-symbols-outlined"></span>',
                     'mid_size' => 2,
                     'type' => 'list',
                 ]);
@@ -214,7 +214,7 @@ get_header();
 <!-- Mobile Bottom Navigation -->
 <nav class="mobile-nav">
     <a href="<?php echo esc_url(home_url('/')); ?>" class="mobile-nav__item">
-        <span class="ri ri-home-line"></span>
+        <span class="material-symbols-outlined"></span>
         <span>Home</span>
     </a>
     <a href="<?php echo esc_url(get_post_type_archive_link('vendor')); ?>" class="mobile-nav__item active">
@@ -222,11 +222,11 @@ get_header();
         <span>Vendors</span>
     </a>
     <a href="#" class="mobile-nav__item">
-        <span class="ri ri-compass-line"></span>
+        <span class="material-symbols-outlined"></span>
         <span>Explore</span>
     </a>
     <a href="#" class="mobile-nav__item">
-        <span class="ri ri-user-line"></span>
+        <span class="material-symbols-outlined"></span>
         <span>Profile</span>
     </a>
 </nav>

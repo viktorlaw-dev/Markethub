@@ -1,6 +1,7 @@
 // ===================================
 // 1. ABSTRACTS (Variables, Mixins)
 // ===================================
+@import 'abstracts/fonts';
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 
@@ -36,6 +37,11 @@
 @import 'pages/home';
 @import 'pages/vendor-archive';
 @import 'pages/vendor-dashboard';
+@import 'pages/single-vendor-profile';
+@import 'pages/single-vendor';
+@import 'pages/single-vendor';
+@import 'pages/single-vendor';
+@import 'pages/single-vendor';
 
 // ===================================
 // 7. THEMES (Dark mode, Color schemes)
